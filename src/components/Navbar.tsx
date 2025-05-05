@@ -12,7 +12,6 @@ const navItems = [
 ];
 
 const Navbar: React.FC = () => {
-  const scrollToSection = (id: string) => {
     const el = document.getElementById(id);
     if (el) {
       el.scrollIntoView({ behavior: 'smooth' });
